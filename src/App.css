@@ -1,0 +1,28 @@
+@import url('https://fonts.cdnfonts.com/css/satoshi?styles=135005,135007,135002');
+@import url('https://fonts.googleapis.com/css2?family=Sarpanch:wght@700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display?styles=98774,98773');
+
+:root {
+    --sarpanch: 'Sarpanch', sans-serif;
+    --satoshi: 'Satoshi', sans-serif;
+    --sf-pro: 'SF Pro Display', sans-serif;
+
+    --primary-color: #3DDEED;
+    --secondary-color: #BD00FF;
+
+    --background-color: #20112D;
+
+    --color-black: #20112D;
+    --color-dark: #182627;
+    --color-white: #FFFFFF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: var(--satoshi);
+  background: var(--background-color);
+  color: #fff;
+}

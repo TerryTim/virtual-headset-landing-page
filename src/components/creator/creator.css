@@ -1,0 +1,324 @@
+.creator__text {
+    margin: 24px;
+}
+
+.creator__title h2 {
+    color: #FFF;
+    font-family: var(--satoshi);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 130%; /* 31.2px */
+    letter-spacing: -0.48px;
+}
+
+.creator__content {
+    margin-top: 24px;
+}
+
+.creator__content p {
+    color: #FFF;
+    font-family: var(--satoshi);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+}
+
+.creator__btn {
+    display: inline-flex;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    border-radius: 4px;
+    background: rgba(61, 222, 237, 0.10);
+    margin-top: 24px;
+    margin-bottom: 24px;
+    
+}
+
+.creator__btn a {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    text-decoration: none;
+    color: #3DDEED;
+}
+
+.creator__btn img {
+    background-color: transparent;
+    padding-left: 24px;
+}
+
+.creator__people {
+    display: flex;
+    align-items: center;
+}
+
+.creator__people-image img {
+    width: 100%;
+    background-color: transparent;
+}
+
+.creator__people-view {
+    margin-left: 16px;
+}
+
+.creator__people-view p {
+    color: #FFF;
+    font-family: var(--satoshi);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px; /* 122.222% */
+}
+
+.creator__image-full {
+    display: none;
+}
+
+.creator__image-rectangle {
+    margin-top: 24px;
+}
+
+.creator__image-rectangle img {
+    width: 100%;
+    background-color: transparent;
+}
+
+.creator__twitter {
+    width: 400px;
+    height: 282px;    
+    /* position: absolute;
+    top: 2250px; */
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 1px 0px 0px #CED5DC;
+    margin: auto;
+}
+
+.creator__twitter-profile {
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+}
+
+.creator__twitter-image {
+    background-color: transparent;
+    margin: 14px 8px 14px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.creator__twitter-image img {
+    width: 55px;
+    height: 55px;
+    border-radius: 55px;
+    background-color: transparent;
+}
+
+.creator__twitter-name {
+    background-color: transparent;
+}
+
+.creator__twitter-name b {
+    background-color: transparent;
+    color: #141619;
+    font-family: var(--sf-pro);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.3px;
+}
+
+.creator__twitter-name p {
+    background-color: transparent;
+    color: #687684;
+    font-family: var(--sf-pro);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.3px;
+}
+
+.creator__twitter-tweet {
+    background-color: transparent;
+}
+
+.creator__twitter-tweet p {
+    background-color: transparent;
+    color: #141619;
+    font-family: var(--sf-pro);
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 31px; /* 140.909% */
+    letter-spacing: -0.7px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.creator__twitter-date {
+    display: flex;
+    background-color: transparent;
+    margin-top: 28px;
+    margin-left: 20px;
+}
+
+.creator__twitter-time,
+.creator__twitter-blue-text {
+    background-color: transparent;
+
+}
+
+.creator__twitter-time p {
+    background-color: transparent;
+    color: #687684;
+    font-family: var(--sf-pro);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.3px;
+}
+
+.creator__twitter-blue-text p {
+    background-color: transparent;
+    color: #4C9EEB;
+    font-family: var(--sf-pro);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.3px;
+}
+
+.creator__twitter-retweets {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-top: 1px solid #BDC5CD;
+    border-bottom: 1px solid #BDC5CD;
+    padding: 12px 0;
+}
+
+.creator__twitter-retweets p {
+    background-color: transparent;
+}
+
+.creator__twitter-retweets-number {
+    background-color: transparent;
+    margin-right: 5px;
+}
+
+.creator__twitter-retweets-number p {
+    color: #141619;
+    font-family: var(--sf-pro);
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -0.3px;
+}
+
+.creator__twitter-retweets-text {
+    background-color: transparent;
+    margin-right: 7px;
+}
+
+.creator__twitter-retweets-text p {
+    color: #687684;
+    font-family: var(--sf-pro);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.3px;
+}
+
+.creator__twitter-btn {
+    background-color: transparent;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.creator__twitter-btn img {
+    background-color: transparent;
+}
+
+@media (max-width: 400px) {
+    .creator__twitter {
+        width: auto;
+        height: auto;
+    }
+}
+
+
+@media (min-width: 640px) {
+    .creator__image-rectangle {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .creator__title h2 {
+        font-size: 28px;
+    }
+
+    .creator__image-rectangle {
+        background-size: 70%;
+        text-align: center;
+    }
+
+    .creator__image-rectangle img {
+        width: 70%;
+    }
+}
+
+@media (min-width: 1280px) {
+    .creator {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .creator__text {
+        width: 530px;
+        height: fit-content;
+    }
+
+    .creator__title h2{
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 130%; /* 72.8px */
+        letter-spacing: -1.12px;
+    }
+
+    .creator__image-rectangle {
+        display: none;
+        /* width: 100%;
+        position: relative; */
+    }
+
+    .creator__image-rectangle img {
+        width: 100%;
+    }
+
+    .creator__twitter {
+        display: none;
+        /* position: absolute;
+        left: 45%;
+        top: 200%; */
+        /* top: 1700px;
+        left: 500px; */
+    }
+
+    .creator__image-full {
+        display: block;
+        margin-right: 24px;
+    }
+
+    .creator__image-full img {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1536px) {
+    .creator {               
+        margin: 56px 256px;
+    }
+
+    .creator__image-full {
+        margin-right: 0;
+    }
+}

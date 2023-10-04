@@ -1,0 +1,94 @@
+.accordion-container {
+    margin-inline: 24px;
+    margin-bottom: 24px;
+}
+
+.accordion {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.05);
+    color: #FFF;
+    font-family: var(--satoshi);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 130%;
+    /* 20.8px */
+    letter-spacing: -0.32px;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+}
+
+.active {
+    border-radius: 8px 8px 0 0;
+}
+
+.active,
+.accordion:hover {
+    background: rgba(255, 255, 255, 0.10);
+}
+
+.accordion:after {
+    content: url('../../assets/faq/arrow_down.svg');
+    float: right;
+}
+
+.active:after {
+    content: url('../../assets/faq/arrow_up.svg');
+}
+
+.panel {
+    padding: 0 18px;
+    background: rgba(255, 255, 255, 0.10);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.6s ease-in-out;
+    border-radius: 0 0 8px 8px;
+}
+
+.panel p {
+    margin-bottom: 24px;
+    background-color: transparent;
+    color: #FFF;
+    font-family: var(--satoshi);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    /* 27px */
+}
+
+@media (min-width: 1024px) {
+    .accordion-container {        
+        width: 928px;
+        margin-inline: auto;
+    }
+    .accordion {
+        font-size: 20px;
+    }
+
+    .panel p {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1536px) {
+    .accordion-container {               
+        margin: 24px auto;
+    }
+
+    .accordion {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 130%; /* 31.2px */
+        letter-spacing: -0.48px;
+    }
+
+    .panel p {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 150%; /* 27px */
+    }
+}

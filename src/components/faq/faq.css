@@ -1,0 +1,26 @@
+.faq__title {
+    margin-block: 32px;
+}
+
+.faq__title h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: var(--satoshi);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: -1.12px;
+}
+
+@media (min-width: 1024px) {
+    .faq__title h2 {
+        font-size: 28px;
+    }
+}
+
+@media (min-width: 1536px) {
+    .faq__title h2 {               
+        font-size: 56px;
+        margin-top: 132px;
+    }
+}

@@ -1,0 +1,6 @@
+export { default as  Header } from  './header/Header'
+export { default as  Headset } from  './headset/Headset'
+export { default as  Creator } from  './creator/Creator'
+export { default as  TopGames } from  './topGames/TopGames'
+export { default as  FAQ } from  './faq/FAQ'
+export { default as Footer } from './footer/Footer'
