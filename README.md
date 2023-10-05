@@ -1,8 +1,26 @@
-# React + Vite
+# Virtual Headset Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+"Virtual Headset Landing Page" is a React project that brings the captivating design from Figma to life. This responsive and interactive webpage showcases virtual reality headsets with smooth animations.
+It provides a modern, user-friendly experience for desktop and mobile users.
 
-Currently, two official plugins are available:
+## Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- HTML5
+- CSS3
+- JavaScript
+- React + Vite
+
+## Credits
+
+- Figma Design: The design for this landing page is based on the work by [Giorgi Matsukatovi](https://www.figma.com/community/file/1285212925882558712).
+
+## Live View
+- [https://terrytim.github.io/virtual-headset-landing-page/](https://terrytim.github.io/virtual-headset-landing-page/)
+
+---
+
+![Screenshot 1](screenshot/Screenshot-1.jpg)
+
+![Screenshot 2](screenshot/Screenshot-2.jpg)
+
+![Screenshot 3](screenshot/Screenshot-3.jpg)
